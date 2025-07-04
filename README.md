@@ -18,3 +18,6 @@ The data comes from **Olist**, a Brazilian online retail platform, and includes 
 - The goal is to identify the most impactful variables on customer satisfaction.
 - All results are reproducible with the provided datasets and notebook.
 
+## Quick View:
+
+For a quick visualization, you can go directly to the `Notebook` folder and open the `Brasil_ECom.ipynb` file using GitHub's online viewer. No need to download anything.
