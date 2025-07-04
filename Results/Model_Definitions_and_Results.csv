@@ -1,0 +1,11 @@
+Model_Name,Model_Definition,Feature_Set,Round
+LogReg_A_R1,"LogisticRegression(max_iter=5000, random_state=42)","x_train_Scaled, x_test_Scaled",R1
+LogReg_B_R1,"LogisticRegression(class_weight='balanced', max_iter=5000, random_state=42)","x_train_Scaled, x_test_Scaled",R1
+RF_A_R1,RandomForestClassifier(random_state=42),"x_train, x_test",R1
+RF_B_R1,"RandomForestClassifier(class_weight='balanced', random_state=42)","x_train, x_test",R1
+XGB_A_R1,XGBClassifier(random_state=42),"x_train, x_test",R1
+XGB_B_R1,"XGBClassifier(random_state=42, scale_pos_weight=peso)","x_train, x_test",R1
+RF_C_R1,"RandomForestClassifier(random_state=42, class_weight='balanced') + GridSearch","x_train, x_test",R1
+RF_D_R1,"RandomForestClassifier(class_weight='balanced', random_state=42)","x_trainB, x_testB (subset of features)",R1
+RF_A_R2,"RandomForestClassifier(class_weight='balanced', random_state=42)","x_train, x_test (with Days_Early)",R2
+RF_B_R2,"RandomForestClassifier(random_state=42, class_weight='balanced') + GridSearch","x_train, x_test (with Days_Early)",R2
