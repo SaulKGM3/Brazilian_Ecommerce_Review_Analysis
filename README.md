@@ -8,7 +8,7 @@ The data comes from **Olist**, a Brazilian online retail platform, and includes 
 
 ## Project Overview
 
-- The project offers a **reproducible step-by-step exploratory data analysis (EDA)**.
+- The project offers a **reproducible step by step exploratory data analysis (EDA)**.
 - Users may choose to **skip the EDA** and move directly to the **modeling and results** sections.
 - Each section is **clearly divided and includes instructions** to ensure smooth execution.
 
