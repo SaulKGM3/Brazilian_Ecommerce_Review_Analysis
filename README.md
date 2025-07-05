@@ -1,6 +1,6 @@
 ## Note:
 
-This project is shared as a demonstration of technical proficiency and as part of an ongoing optimization process. It is understood that this work is not final and that there will always be room for refinement as more time and analysis are invested. Future updates are expected.
+This project is shared as a demonstration of technical proficiency and as part of an ongoing optimization process. It is understood that this work is not final and that there is usually room for refinement as more time and analysis are invested. Future updates are expected.
 
 # Brazilian Ecommerce Review Analysis
 
