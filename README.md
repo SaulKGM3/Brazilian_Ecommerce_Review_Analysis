@@ -1,6 +1,6 @@
 ## Note:
 
-In the current version, an **error** was identified in the target variable definition. *Correcting this is in progress*, and as a result, the project's conclusions are **inaccurate**. The project remains available as a demonstration of technical proficiency and as part of an ongoing optimization process.
+This project is shared as a demonstration of technical proficiency and as part of an ongoing optimization process. It is understood that this work is not final and that there will always be room for refinement as more time and analysis are invested. Future updates are expected.
 
 # Brazilian Ecommerce Review Analysis
 
@@ -25,3 +25,10 @@ The data comes from **Olist**, a Brazilian online retail platform, and includes 
 ## Quick View
 
 For a quick visualization, you can go directly to the `Notebook` folder and open the `Brasil_ECom.ipynb` file using GitHub's online viewer. No need to download anything.
+
+## Future Plans
+
+The following improvements are planned for future revisions:
+- Reevaluate the actual relevance and contribution of the `Days_TA ` variable.
+- Assess the benefits of transforming `Days_Early` into a binary feature instead of using it as a continuous variable.
+- Explore an alternative analysis focused entirely on **product characteristics**, excluding all delivery related features.
