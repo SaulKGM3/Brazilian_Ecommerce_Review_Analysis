@@ -1,3 +1,7 @@
+## Note:
+
+In the current version, an **error** was identified in the target variable definition. *Correcting this is in progress*, and as a result, the project's conclusions are **inaccurate**. The project remains available as a demonstration of technical proficiency and as part of an ongoing optimization process.
+
 # Brazilian Ecommerce Review Analysis
 
 This project analyzes real-world data from Brazilian e-commerce transactions, focusing on customer reviews. The main objective is to build an **interpretable model** that explains the key factors behind positive and negative customer feedback, helping guide business decisions and service improvements.
@@ -18,3 +22,6 @@ The data comes from **Olist**, a Brazilian online retail platform, and includes 
 - The goal is to identify the most impactful variables on customer satisfaction.
 - All results are reproducible with the provided datasets and notebook.
 
+## Quick View
+
+For a quick visualization, you can go directly to the `Notebook` folder and open the `Brasil_ECom.ipynb` file using GitHub's online viewer. No need to download anything.
