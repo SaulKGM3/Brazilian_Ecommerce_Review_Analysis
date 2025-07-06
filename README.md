@@ -24,7 +24,7 @@ The data comes from **Olist**, a Brazilian online retail platform, and includes 
 
 ## Quick View
 
-For a quick visualization on relevant code, you can go directly to the `Notebook` folder and open the `Brasil_ECom.ipynb` file using GitHub's online viewer. For the Dashboard can be seen below this text. No need to download anything.
+For a quick visualization of the relevant code, you can go directly to the `Notebook` folder and open the `Brasil_ECom.ipynb` file using GitHub's online viewer. The dashboard can be seen below this text. No need to download anything.
 
 ## Dashboard Overview
 
