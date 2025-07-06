@@ -26,6 +26,12 @@ The data comes from **Olist**, a Brazilian online retail platform, and includes 
 
 For a quick visualization, you can go directly to the `Notebook` folder and open the `Brasil_ECom.ipynb` file using GitHub's online viewer. No need to download anything.
 
+## Dashboard Overview
+
+The main results are summarized in the following dashboard:
+
+![Dashboard: RF_B_R2 (.49) Olist](Dashboard/RF_B_R2(.49)OlistPNG.png)
+
 ## Future Plans
 
 The following improvements are planned for future revisions:
@@ -33,9 +39,3 @@ The following improvements are planned for future revisions:
 - Assess the benefits of transforming `Days_Early` into a binary feature instead of using it as a continuous variable.
 - Explore an alternative analysis focused entirely on **product characteristics**, excluding all delivery related features.
 - Dashboard improvement 
-
-## Dashboard Overview
-
-The main results are summarized in the following dashboard:
-
-![Dashboard: RF_B_R2 (.49) Olist](Dashboard/RF_B_R2(.49)OlistPNG.png)
