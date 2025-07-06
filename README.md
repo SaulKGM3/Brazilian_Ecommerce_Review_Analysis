@@ -32,3 +32,10 @@ The following improvements are planned for future revisions:
 - Reevaluate the actual relevance and contribution of the `Days_TA ` variable.
 - Assess the benefits of transforming `Days_Early` into a binary feature instead of using it as a continuous variable.
 - Explore an alternative analysis focused entirely on **product characteristics**, excluding all delivery related features.
+- Dashboard improvement 
+
+## Dashboard Overview
+
+The main results are summarized in the following dashboard:
+
+![Dashboard: RF_B_R2 (.49) Olist](Dashboard/RF_B_R2(.49)OlistPNG.png)
