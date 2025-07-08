@@ -1,6 +1,6 @@
 ## Note:
 
-This project is shared as a demonstration of technical proficiency and as part of an ongoing optimization process. It is understood that this work is not final and that there is usually room for refinement as more time and analysis are invested. Future updates are expected.
+This project is shared as a demonstration of technical proficiency and as part of an ongoing optimization process. It is understood that this work is not final and that there is usually room for refinement as more time and analysis are invested. The notebook itself includes a **Experimental Playground** section where current ideas are being tested. Future updates are expected.
 
 # Brazilian Ecommerce Review Analysis
 
@@ -32,10 +32,12 @@ The main results are summarized in the following dashboard:
 
 ![Dashboard: RF_B_R2 (.49) Olist](Dashboard/RF_B_R2(.49)OlistPNG.png)
 
-## Future Plans
+## Ongoing/Pending Updates and Corrections
 
 The following improvements are planned for future revisions:
-- Reevaluate the actual relevance and contribution of the `Days_TA ` variable.
-- Assess the benefits of transforming `Days_Early` into a binary feature instead of using it as a continuous variable.
-- Explore an alternative analysis focused entirely on **product characteristics**, excluding all delivery related features.
-- Dashboard improvement 
+- The most recent findings suggest that failing to meet expectations or successfully exceeding them is the main driver of reviews. This may sound obvious, but the key is to declare A and deliver B, where B > A, but never B < A.
+- An error was identified: tree based models were tested without base category columns (only required for linear models). The corrected model shows similar results but is preferred, as including base categories reveals meaningful patterns that enhance business understanding beyond predictive accuracy.
+- Reevaluate the actual relevance and contribution of the `Days_TA` variable. **UPDATE:** It was found that this variable is relevant, likely because a longer window increases the chance to "surprise" the customer with an early delivery. Since the model is Random Forest, collinearity between `Days_TA` and `Days_Early` is not considered a problem.
+- Assess the benefits of transforming `Days_Early` into a binary feature instead of using it as a continuous variable. **UPDATE:** This did not improve the model.
+- Explore an alternative analysis focused entirely on **product characteristics**, excluding all delivery-related features.
+- Improve the dashboard by adding a page 2 for a more feature-focused analysis.
