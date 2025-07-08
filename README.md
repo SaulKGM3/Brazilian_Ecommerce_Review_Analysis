@@ -40,5 +40,5 @@ The following improvements are planned for future revisions:
 - Reevaluate the actual relevance and contribution of the `Days_TA` variable. **UPDATE:** It was found that this variable is relevant, likely because a longer window increases the chance to "surprise" the customer with an early delivery. Since the model is Random Forest, collinearity between `Days_TA` and `Days_Early` is not considered a problem.
 - Assess the benefits of transforming `Days_Early` into a binary feature instead of using it as a continuous variable. **UPDATE:** This did not improve the model.
 - Explore an alternative analysis focused entirely on **product characteristics**, excluding all delivery-related features.
-- Improve the dashboard by adding a page 2 for a more feature-focused analysis.
+- Improve the dashboard by adding a page 2 for a more feature focused analysis.
 - Improve the dashboard by limiting  features showcase  to top 10-15.
