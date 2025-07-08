@@ -42,3 +42,4 @@ The following improvements are planned for future revisions:
 - Explore an alternative analysis focused entirely on **product characteristics**, excluding all delivery-related features.
 - Improve the dashboard by adding a page 2 for a more feature focused analysis.
 - Improve the dashboard by limiting  features showcase  to top 10-15.
+- Location related categories may be relevant not because of customer profile, but rather due to a direct correlation with `Days_TA`, which increases the opportunity window to surprise the customer with early delivery.
