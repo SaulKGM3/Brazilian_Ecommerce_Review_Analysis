@@ -1,0 +1,16 @@
+Feature,Importance
+product_category_name_informatica_acessorios,0.03701172968179718
+customer_state_MG,0.03796681079558299
+product_category_name_beleza_saude,0.038469114253107395
+payment_type_credit_card,0.04495731010815078
+product_category_name_moveis_decoracao,0.046423134281262546
+payment_type_boleto,0.048315378737190315
+customer_state_RJ,0.07284789534458251
+product_category_name_cama_mesa_banho,0.07953432500518329
+customer_state_SP,0.16875488716220535
+payment_installments,0.24073798082631653
+freight_value,0.3021160129734638
+product_weight_g,0.3099231743696671
+price,0.33929409472909
+Days_TA,0.4298307922406165
+Days_Early,0.4324708202446935
