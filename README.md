@@ -12,14 +12,15 @@ The data comes from **Olist**, a Brazilian online retail platform, and includes 
 
 ## Project Overview
 
-- The project offers a **reproducible step by step exploratory data analysis (EDA)**.
-- Users may choose to **skip the EDA** and move directly to the **modeling and results** sections.
-- Each section is **clearly divided and includes instructions** to ensure smooth execution.
+- The project includes an initial **Exploratory Data Analysis (EDA)** section to understand the data structure and quality.
+- A detailed **data preprocessing** section follows, carefully preparing the dataset for both linear and tree based models.
+- The **model testing and calibration** section evaluates different models, with a focus on interpretability rather than pure predictive accuracy.
+- Finally, the project uses the selected model to **explore business insights**, identifying key factors that influence customer reviews.
 
 ## Key Notes
 
 - The analysis focuses on **explainability over predictive accuracy**.
-- The goal is to identify the most impactful variables on customer satisfaction.
+- The goal is to identify the most impactful variables on customer satisfaction, particularly those leading to negative reviews.
 - All results are reproducible with the provided datasets and notebook.
 
 ## Quick View
@@ -28,15 +29,17 @@ For a quick visualization of the relevant code, you can go directly to the `Note
 
 ## Dashboard Overview
 
-The main results are summarized in the following dashboard:
+The main results are summarized in the following dashboards:
 
-![Dashboard: RF_B_R2 (.49) Olist](Dashboard/RF_B_R2(.49)OlistPNG.png)
+- **Page 1:** ![Dashboard Page 1](Dashboard/RF_B.OlistPage1.png)
+- **Page 2:** ![Dashboard Page 2](Dashboard/RF_B.OlistPage2.png)
+
+The `.pbix` file is also included for deeper exploration `Dashboard/RF_B(43)Olist.pbix`
 
 ## Ongoing/Pending Updates and Corrections
 
 The following improvements are planned for future revisions:
 - The most recent findings suggest that failing to meet expectations or successfully exceeding them is the main driver of reviews. This may sound obvious, but the key is to declare A and deliver B, where B > A, but never B < A.
-- A minor but relevant error was identified: tree based models were tested without base category columns (only required for linear models). The corrected model shows similar results but is preferred, as including base categories reveals meaningful patterns that enhance business understanding beyond predictive accuracy. **(results not yet updated to reflect this correction)**
 - Reevaluate the actual relevance and contribution of the `Days_TA` variable. **UPDATE:** It was found that this variable is relevant, likely because a longer window increases the chance to "surprise" the customer with an early delivery. Since the model is Random Forest, collinearity between `Days_TA` and `Days_Early` is not considered a problem.
 - Assess the benefits of transforming `Days_Early` into a binary feature instead of using it as a continuous variable. **UPDATE:** This did not improve the model.
 - Explore an alternative analysis focused entirely on **product characteristics**, excluding all delivery-related features.
